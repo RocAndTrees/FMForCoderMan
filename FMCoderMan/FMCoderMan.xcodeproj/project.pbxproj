@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0717553903122CCE77BB065D /* Pods_FMCoderManTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1B8C579CA05CDDB52F67B2 /* Pods_FMCoderManTests.framework */; };
+		260333CA742B8E8B3C838A60 /* Pods_FMCoderMan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64414D31388D789BEC0CAB6E /* Pods_FMCoderMan.framework */; };
+		58F6DC833D3BDD80241C4717 /* Pods_FMCoderManUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A6BB7B448234C99538A10B /* Pods_FMCoderManUITests.framework */; };
 		C1B066841EBB1448006AE061 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B066831EBB1448006AE061 /* main.m */; };
 		C1B066871EBB1448006AE061 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B066861EBB1448006AE061 /* AppDelegate.m */; };
 		C1B0668D1EBB1448006AE061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B0668B1EBB1448006AE061 /* Main.storyboard */; };
@@ -20,9 +23,6 @@
 		C1B066CA1EBB1662006AE061 /* XMGMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1B066C21EBB1662006AE061 /* XMGMiddleView.xib */; };
 		C1B066CB1EBB1662006AE061 /* XMGNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B066C41EBB1662006AE061 /* XMGNavBar.m */; };
 		C1B066CC1EBB1662006AE061 /* XMGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B066C61EBB1662006AE061 /* XMGTabBar.m */; };
-		C1B066D51EBB1674006AE061 /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B066D01EBB1674006AE061 /* CALayer+PauseAimate.m */; };
-		C1B066D61EBB1674006AE061 /* UIImage+XMGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B066D21EBB1674006AE061 /* UIImage+XMGImage.m */; };
-		C1B066D71EBB1674006AE061 /* UIView+XMGLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B066D41EBB1674006AE061 /* UIView+XMGLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CDE1B5129161DF6D0A4062A /* Pods-FMCoderManTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMCoderManTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FMCoderManTests/Pods-FMCoderManTests.release.xcconfig"; sourceTree = "<group>"; };
+		3E2D9173781D1DC2F91D89B5 /* Pods-FMCoderManUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMCoderManUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FMCoderManUITests/Pods-FMCoderManUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		40A6BB7B448234C99538A10B /* Pods_FMCoderManUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FMCoderManUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62EDD402851CE51B29BEEF5B /* Pods-FMCoderMan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMCoderMan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FMCoderMan/Pods-FMCoderMan.debug.xcconfig"; sourceTree = "<group>"; };
+		64414D31388D789BEC0CAB6E /* Pods_FMCoderMan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FMCoderMan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE2734F2327B90472428BB4 /* Pods-FMCoderMan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMCoderMan.release.xcconfig"; path = "Pods/Target Support Files/Pods-FMCoderMan/Pods-FMCoderMan.release.xcconfig"; sourceTree = "<group>"; };
+		BBD2A21481263089A6CAE02B /* Pods-FMCoderManTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMCoderManTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FMCoderManTests/Pods-FMCoderManTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C1B0667F1EBB1448006AE061 /* FMCoderMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMCoderMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1B066831EBB1448006AE061 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C1B066851EBB1448006AE061 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,12 +75,8 @@
 		C1B066C41EBB1662006AE061 /* XMGNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGNavBar.m; sourceTree = "<group>"; };
 		C1B066C51EBB1662006AE061 /* XMGTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTabBar.h; sourceTree = "<group>"; };
 		C1B066C61EBB1662006AE061 /* XMGTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTabBar.m; sourceTree = "<group>"; };
-		C1B066CF1EBB1674006AE061 /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+PauseAimate.h"; sourceTree = "<group>"; };
-		C1B066D01EBB1674006AE061 /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+PauseAimate.m"; sourceTree = "<group>"; };
-		C1B066D11EBB1674006AE061 /* UIImage+XMGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XMGImage.h"; sourceTree = "<group>"; };
-		C1B066D21EBB1674006AE061 /* UIImage+XMGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XMGImage.m"; sourceTree = "<group>"; };
-		C1B066D31EBB1674006AE061 /* UIView+XMGLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGLayout.h"; sourceTree = "<group>"; };
-		C1B066D41EBB1674006AE061 /* UIView+XMGLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGLayout.m"; sourceTree = "<group>"; };
+		E040647FDB252163BCB58C3B /* Pods-FMCoderManUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMCoderManUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FMCoderManUITests/Pods-FMCoderManUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EE1B8C579CA05CDDB52F67B2 /* Pods_FMCoderManTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FMCoderManTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				260333CA742B8E8B3C838A60 /* Pods_FMCoderMan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0717553903122CCE77BB065D /* Pods_FMCoderManTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,12 +100,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58F6DC833D3BDD80241C4717 /* Pods_FMCoderManUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B62170F0D54F3D0D5C90BE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64414D31388D789BEC0CAB6E /* Pods_FMCoderMan.framework */,
+				EE1B8C579CA05CDDB52F67B2 /* Pods_FMCoderManTests.framework */,
+				40A6BB7B448234C99538A10B /* Pods_FMCoderManUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E23FEE3CAAE9E540864033A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62EDD402851CE51B29BEEF5B /* Pods-FMCoderMan.debug.xcconfig */,
+				9AE2734F2327B90472428BB4 /* Pods-FMCoderMan.release.xcconfig */,
+				BBD2A21481263089A6CAE02B /* Pods-FMCoderManTests.debug.xcconfig */,
+				1CDE1B5129161DF6D0A4062A /* Pods-FMCoderManTests.release.xcconfig */,
+				3E2D9173781D1DC2F91D89B5 /* Pods-FMCoderManUITests.debug.xcconfig */,
+				E040647FDB252163BCB58C3B /* Pods-FMCoderManUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C1B066761EBB1448006AE061 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +137,8 @@
 				C1B0669B1EBB1448006AE061 /* FMCoderManTests */,
 				C1B066A61EBB1448006AE061 /* FMCoderManUITests */,
 				C1B066801EBB1448006AE061 /* Products */,
+				8E23FEE3CAAE9E540864033A /* Pods */,
+				5B62170F0D54F3D0D5C90BE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -200,22 +231,8 @@
 		C1B066CD1EBB1674006AE061 /* BaseClasses */ = {
 			isa = PBXGroup;
 			children = (
-				C1B066CE1EBB1674006AE061 /* Category */,
 			);
 			path = BaseClasses;
-			sourceTree = "<group>";
-		};
-		C1B066CE1EBB1674006AE061 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				C1B066CF1EBB1674006AE061 /* CALayer+PauseAimate.h */,
-				C1B066D01EBB1674006AE061 /* CALayer+PauseAimate.m */,
-				C1B066D11EBB1674006AE061 /* UIImage+XMGImage.h */,
-				C1B066D21EBB1674006AE061 /* UIImage+XMGImage.m */,
-				C1B066D31EBB1674006AE061 /* UIView+XMGLayout.h */,
-				C1B066D41EBB1674006AE061 /* UIView+XMGLayout.m */,
-			);
-			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1B066AC1EBB1448006AE061 /* Build configuration list for PBXNativeTarget "FMCoderMan" */;
 			buildPhases = (
+				14E45CC298AFBD3D1C0DA6C1 /* [CP] Check Pods Manifest.lock */,
 				C1B0667B1EBB1448006AE061 /* Sources */,
 				C1B0667C1EBB1448006AE061 /* Frameworks */,
 				C1B0667D1EBB1448006AE061 /* Resources */,
+				E1C898309F0FBC6C741BB63F /* [CP] Embed Pods Frameworks */,
+				B8BCDDBC848247D2D7D82D10 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -242,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1B066AF1EBB1448006AE061 /* Build configuration list for PBXNativeTarget "FMCoderManTests" */;
 			buildPhases = (
+				A84B9F498DF92374B00436E4 /* [CP] Check Pods Manifest.lock */,
 				C1B066941EBB1448006AE061 /* Sources */,
 				C1B066951EBB1448006AE061 /* Frameworks */,
 				C1B066961EBB1448006AE061 /* Resources */,
+				317FCE6CF228EF4627489988 /* [CP] Embed Pods Frameworks */,
+				7218C1704228F59B6EDBD450 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,9 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1B066B21EBB1448006AE061 /* Build configuration list for PBXNativeTarget "FMCoderManUITests" */;
 			buildPhases = (
+				4C2A796FB032C2B6338CD038 /* [CP] Check Pods Manifest.lock */,
 				C1B0669F1EBB1448006AE061 /* Sources */,
 				C1B066A01EBB1448006AE061 /* Frameworks */,
 				C1B066A11EBB1448006AE061 /* Resources */,
+				088A17BFF295C8FB1A9E9D65 /* [CP] Embed Pods Frameworks */,
+				79E377AFE949446BB10A3986 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -350,6 +376,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		088A17BFF295C8FB1A9E9D65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMCoderManUITests/Pods-FMCoderManUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14E45CC298AFBD3D1C0DA6C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		317FCE6CF228EF4627489988 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMCoderManTests/Pods-FMCoderManTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C2A796FB032C2B6338CD038 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7218C1704228F59B6EDBD450 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMCoderManTests/Pods-FMCoderManTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79E377AFE949446BB10A3986 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMCoderManUITests/Pods-FMCoderManUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A84B9F498DF92374B00436E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B8BCDDBC848247D2D7D82D10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMCoderMan/Pods-FMCoderMan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1C898309F0FBC6C741BB63F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMCoderMan/Pods-FMCoderMan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1B0667B1EBB1448006AE061 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -359,11 +523,8 @@
 				C1B066871EBB1448006AE061 /* AppDelegate.m in Sources */,
 				C1B066C91EBB1662006AE061 /* XMGMiddleView.m in Sources */,
 				C1B066C81EBB1662006AE061 /* XMGTabBarController.m in Sources */,
-				C1B066D71EBB1674006AE061 /* UIView+XMGLayout.m in Sources */,
 				C1B066CB1EBB1662006AE061 /* XMGNavBar.m in Sources */,
 				C1B066CC1EBB1662006AE061 /* XMGTabBar.m in Sources */,
-				C1B066D51EBB1674006AE061 /* CALayer+PauseAimate.m in Sources */,
-				C1B066D61EBB1674006AE061 /* UIImage+XMGImage.m in Sources */,
 				C1B066841EBB1448006AE061 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +672,7 @@
 		};
 		C1B066AD1EBB1448006AE061 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62EDD402851CE51B29BEEF5B /* Pods-FMCoderMan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QD82P77WSG;
@@ -523,6 +685,7 @@
 		};
 		C1B066AE1EBB1448006AE061 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AE2734F2327B90472428BB4 /* Pods-FMCoderMan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QD82P77WSG;
@@ -535,6 +698,7 @@
 		};
 		C1B066B01EBB1448006AE061 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBD2A21481263089A6CAE02B /* Pods-FMCoderManTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = QD82P77WSG;
@@ -548,6 +712,7 @@
 		};
 		C1B066B11EBB1448006AE061 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CDE1B5129161DF6D0A4062A /* Pods-FMCoderManTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = QD82P77WSG;
@@ -561,6 +726,7 @@
 		};
 		C1B066B31EBB1448006AE061 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E2D9173781D1DC2F91D89B5 /* Pods-FMCoderManUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = QD82P77WSG;
 				INFOPLIST_FILE = FMCoderManUITests/Info.plist;
@@ -573,6 +739,7 @@
 		};
 		C1B066B41EBB1448006AE061 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E040647FDB252163BCB58C3B /* Pods-FMCoderManUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = QD82P77WSG;
 				INFOPLIST_FILE = FMCoderManUITests/Info.plist;

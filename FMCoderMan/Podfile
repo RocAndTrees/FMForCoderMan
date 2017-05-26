@@ -1,0 +1,20 @@
+
+platform :ios, '9.0'
+
+target 'FMCoderMan' do
+  
+   use_frameworks!
+
+  pod 'XMGFMBase', :path => ‘../../FMForCoderManLocalLib/XMGFMBase/XMGFMBase.podspec'
+
+  target 'FMCoderManTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'FMCoderManUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

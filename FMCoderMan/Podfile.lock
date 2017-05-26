@@ -1,0 +1,16 @@
+PODS:
+  - XMGFMBase (0.0.1)
+
+DEPENDENCIES:
+  - XMGFMBase (from `../../FMForCoderManLocalLib/XMGFMBase/XMGFMBase.podspec`)
+
+EXTERNAL SOURCES:
+  XMGFMBase:
+    :path: "../../FMForCoderManLocalLib/XMGFMBase/XMGFMBase.podspec"
+
+SPEC CHECKSUMS:
+  XMGFMBase: 7d1930b7bc384f100db704379f6c8957aaaa651a
+
+PODFILE CHECKSUM: 5c82467a7cac84631df01b89a1252b7e85053ba1
+
+COCOAPODS: 1.2.0

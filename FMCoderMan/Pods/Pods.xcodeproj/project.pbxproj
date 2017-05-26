@@ -1,0 +1,878 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BE93741C5B4FA52748CFCBC817B5EA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		21CA17A364D070D4A6E8AFCDE61880F2 /* CALayer+PauseAimate.h in Headers */ = {isa = PBXBuildFile; fileRef = C1BA678CF601A0D2A03A9802E77342B6 /* CALayer+PauseAimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A59458839CE0A41909CE83231BB8B5B /* Pods-FMCoderManTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A699167AA432B9CEF144BA7A5604672D /* Pods-FMCoderManTests-dummy.m */; };
+		4349B665FDCF446D3EF32E40AB48D56D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		435755804711D11F3A65BDE6F0308030 /* XMGFMBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0403904AB66907DA5CF129794B63626 /* XMGFMBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60C3164EB894915E32DE069002BFD7A0 /* UIImage+XMGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A7944A5C7E8F8017DAA00EE322D336 /* UIImage+XMGImage.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		69371575212A90A0468E885C8A92A8E7 /* UIImage+XMGImage.h in Headers */ = {isa = PBXBuildFile; fileRef = F79043B0165368329732D13EDEC38B95 /* UIImage+XMGImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C39CDFB5E50CABCD0D958F5E7AC6180 /* Pods-FMCoderManUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8EAE38678DC748FE1A2CFEE74322CC8 /* Pods-FMCoderManUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		913B77B504952FC18836BCB59D2B4099 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		99661E28CEC1CA073C68F8ABBA633BFB /* Pods-FMCoderMan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6F6007CD64B036C0804F7BB17CD025F /* Pods-FMCoderMan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7F96158B790478E1ADD009ECF451D88 /* XMGFMBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B77B281072FC1AFE5C1B43747ABD403A /* XMGFMBase-dummy.m */; };
+		AC0E010187CAEE25A7C654FC0F2896F0 /* UIView+XMGLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4174C57FB1BA539C593C8939ACC4E5 /* UIView+XMGLayout.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B12EA59EFAAE8FFD68408DCB7839B984 /* Pods-FMCoderMan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B46FA811A9168D04DC484F66024380D /* Pods-FMCoderMan-dummy.m */; };
+		C768675A065B69D9B1E4A329C0E709F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CB10B5AC829284B43458805B39D7EAC7 /* Pods-FMCoderManUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF8314F9A9230219BABCF055A25ABC4 /* Pods-FMCoderManUITests-dummy.m */; };
+		D055156CC8DE4EBC8D496F99AD320C11 /* UIView+XMGLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 212B6CC268A3800D5840479367508388 /* UIView+XMGLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8017DF6723ECCBE4279B5C53D64DC21 /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BA40750C75726727DF6BF1744ACC96 /* CALayer+PauseAimate.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E0D6551A31BD8F41900F83AEFAAE052A /* Pods-FMCoderManTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2978B5E25CBDE75D083518E09C910CDB /* Pods-FMCoderManTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C16188449C905921C11329010E95DB49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50E0B2810F76C1CA73CB9269A2805EF6;
+			remoteInfo = XMGFMBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F9706BF56831C522D3B77A04E8C59D /* Pods-FMCoderManUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FMCoderManUITests-frameworks.sh"; sourceTree = "<group>"; };
+		0A4DB81C3C906E8E6A5CE874F036B940 /* Pods-FMCoderMan-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FMCoderMan-resources.sh"; sourceTree = "<group>"; };
+		0D8496A79777D5B0C6BD52EB90F79F21 /* Pods-FMCoderMan-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FMCoderMan-acknowledgements.plist"; sourceTree = "<group>"; };
+		1166EFF4321389BB37366C5FBD9854C8 /* Pods-FMCoderManUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FMCoderManUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		160760294643423F6E86A07E0044A75A /* Pods-FMCoderManTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FMCoderManTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		19BADDDDD23FEDD10C764DDA26A16838 /* Pods_FMCoderManUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FMCoderManUITests.framework; path = "Pods-FMCoderManUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEC5428FFFAEF855A5591E317BB26D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		212B6CC268A3800D5840479367508388 /* UIView+XMGLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGLayout.h"; sourceTree = "<group>"; };
+		21C65626027FB2A0844BF4B1D3805F0A /* Pods-FMCoderManTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FMCoderManTests.release.xcconfig"; sourceTree = "<group>"; };
+		2978B5E25CBDE75D083518E09C910CDB /* Pods-FMCoderManTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FMCoderManTests-umbrella.h"; sourceTree = "<group>"; };
+		2A14F258E43EBAF8609196CAE781CEB9 /* XMGFMBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = XMGFMBase.modulemap; sourceTree = "<group>"; };
+		38B38FDFAD060FDEE06388EF4DF3EA4C /* Pods-FMCoderManUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FMCoderManUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		39065233ABAD05765D066009B191F9A2 /* Pods_FMCoderManTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FMCoderManTests.framework; path = "Pods-FMCoderManTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AE20A51F04EF2B74E81497C79EC18D7 /* Pods-FMCoderManTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FMCoderManTests-frameworks.sh"; sourceTree = "<group>"; };
+		4D4174C57FB1BA539C593C8939ACC4E5 /* UIView+XMGLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGLayout.m"; sourceTree = "<group>"; };
+		4F3DF7EEFCE4FAE4C01202188AD7F76A /* Pods-FMCoderManTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FMCoderManTests-resources.sh"; sourceTree = "<group>"; };
+		58B363569FF455DC1D6DCE6FB3F2C10E /* Pods-FMCoderMan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FMCoderMan.modulemap"; sourceTree = "<group>"; };
+		62D6F60974435E6B4E5582F777EA9BFD /* Pods-FMCoderManUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FMCoderManUITests.release.xcconfig"; sourceTree = "<group>"; };
+		63CFDFCDAFA7AA1336B4E78FE443DDE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		649566D23BA1995A8C95024F1F083E24 /* Pods-FMCoderMan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FMCoderMan.debug.xcconfig"; sourceTree = "<group>"; };
+		69A47EDD685A35228C9C69358DD77FE3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C34F8E4555369CBF6A69BF493381ACE /* Pods-FMCoderManUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FMCoderManUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7743C0053E30E23ED8B4D3B367B3F510 /* Pods-FMCoderManTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FMCoderManTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95D1F81B6269A2112A26EC9515FC21A8 /* Pods-FMCoderManUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FMCoderManUITests-resources.sh"; sourceTree = "<group>"; };
+		990DF726B57094ACD40416EF3BBAF590 /* XMGFMBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMGFMBase.xcconfig; sourceTree = "<group>"; };
+		9B46FA811A9168D04DC484F66024380D /* Pods-FMCoderMan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FMCoderMan-dummy.m"; sourceTree = "<group>"; };
+		9D19AE673C6D6E01700B6A6CA4175825 /* Pods-FMCoderManTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FMCoderManTests.modulemap"; sourceTree = "<group>"; };
+		A3F2A33B292733FA621CFA3FE4BBED6D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A699167AA432B9CEF144BA7A5604672D /* Pods-FMCoderManTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FMCoderManTests-dummy.m"; sourceTree = "<group>"; };
+		A6F6007CD64B036C0804F7BB17CD025F /* Pods-FMCoderMan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FMCoderMan-umbrella.h"; sourceTree = "<group>"; };
+		AB711C17CE6A6CBEB24BA21690418E97 /* XMGFMBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMGFMBase-prefix.pch"; sourceTree = "<group>"; };
+		ACBDEE8D4311A832DB61CFC75D6D0ACA /* Pods-FMCoderMan-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FMCoderMan-frameworks.sh"; sourceTree = "<group>"; };
+		AEF8314F9A9230219BABCF055A25ABC4 /* Pods-FMCoderManUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FMCoderManUITests-dummy.m"; sourceTree = "<group>"; };
+		B65634A3712EEAE4F3BFA3A0EBBA2AED /* Pods-FMCoderMan-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FMCoderMan-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B77B281072FC1AFE5C1B43747ABD403A /* XMGFMBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMGFMBase-dummy.m"; sourceTree = "<group>"; };
+		B8BA40750C75726727DF6BF1744ACC96 /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CALayer+PauseAimate.m"; sourceTree = "<group>"; };
+		B8EAE38678DC748FE1A2CFEE74322CC8 /* Pods-FMCoderManUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FMCoderManUITests-umbrella.h"; sourceTree = "<group>"; };
+		BF3B926EB708110853C35F7D21ED5958 /* Pods-FMCoderManUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FMCoderManUITests.modulemap"; sourceTree = "<group>"; };
+		C0403904AB66907DA5CF129794B63626 /* XMGFMBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMGFMBase-umbrella.h"; sourceTree = "<group>"; };
+		C1BA678CF601A0D2A03A9802E77342B6 /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CALayer+PauseAimate.h"; sourceTree = "<group>"; };
+		C3A7944A5C7E8F8017DAA00EE322D336 /* UIImage+XMGImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XMGImage.m"; sourceTree = "<group>"; };
+		C73A5F0EB544A155611C18009711FD17 /* Pods-FMCoderManTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FMCoderManTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D480E5BF01197224B9A1538880729B55 /* Pods_FMCoderMan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FMCoderMan.framework; path = "Pods-FMCoderMan.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD20ECC654A8B2331129BD1BDD3CAE7 /* Pods-FMCoderMan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FMCoderMan.release.xcconfig"; sourceTree = "<group>"; };
+		F79043B0165368329732D13EDEC38B95 /* UIImage+XMGImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+XMGImage.h"; sourceTree = "<group>"; };
+		F843A1A953B5A61434A56E4CDC78C0AC /* XMGFMBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMGFMBase.framework; path = XMGFMBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24FA5E9BE0A7FED00DE4BE03A966A4F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913B77B504952FC18836BCB59D2B4099 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D3DCE4E375ECEAF221943B8C0BDCFDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4349B665FDCF446D3EF32E40AB48D56D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9B41D52A058C7CF083D164A08C1DCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C768675A065B69D9B1E4A329C0E709F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2952997C372B293D979EAC5E69773FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE93741C5B4FA52748CFCBC817B5EA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05A73361FA55E705C90FDB7FE5237A3C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C1BA678CF601A0D2A03A9802E77342B6 /* CALayer+PauseAimate.h */,
+				B8BA40750C75726727DF6BF1744ACC96 /* CALayer+PauseAimate.m */,
+				F79043B0165368329732D13EDEC38B95 /* UIImage+XMGImage.h */,
+				C3A7944A5C7E8F8017DAA00EE322D336 /* UIImage+XMGImage.m */,
+				212B6CC268A3800D5840479367508388 /* UIView+XMGLayout.h */,
+				4D4174C57FB1BA539C593C8939ACC4E5 /* UIView+XMGLayout.m */,
+			);
+			name = Category;
+			path = Category;
+			sourceTree = "<group>";
+		};
+		28DF4F9EED2796503A8E452B16223AF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D480E5BF01197224B9A1538880729B55 /* Pods_FMCoderMan.framework */,
+				39065233ABAD05765D066009B191F9A2 /* Pods_FMCoderManTests.framework */,
+				19BADDDDD23FEDD10C764DDA26A16838 /* Pods_FMCoderManUITests.framework */,
+				F843A1A953B5A61434A56E4CDC78C0AC /* XMGFMBase.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A85AFAD73E04E91FB79B708A5ED9AC5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				612B42F3EF4820F13F49C53C1AFCCBA3 /* Pods-FMCoderMan */,
+				FB0772BE52B9C6DFCED189C90E2FB4ED /* Pods-FMCoderManTests */,
+				A4BE5EC5BADC28D1166271D89D5097E4 /* Pods-FMCoderManUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2DFEFD1954AA119864FD28282B69DF84 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				69A47EDD685A35228C9C69358DD77FE3 /* Info.plist */,
+				2A14F258E43EBAF8609196CAE781CEB9 /* XMGFMBase.modulemap */,
+				990DF726B57094ACD40416EF3BBAF590 /* XMGFMBase.xcconfig */,
+				B77B281072FC1AFE5C1B43747ABD403A /* XMGFMBase-dummy.m */,
+				AB711C17CE6A6CBEB24BA21690418E97 /* XMGFMBase-prefix.pch */,
+				C0403904AB66907DA5CF129794B63626 /* XMGFMBase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../FMForCoderMan/FMCoderMan/Pods/Target Support Files/XMGFMBase";
+			sourceTree = "<group>";
+		};
+		38FA6738104BF84B301FEF4A0DA12F2E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				05A73361FA55E705C90FDB7FE5237A3C /* Category */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		612B42F3EF4820F13F49C53C1AFCCBA3 /* Pods-FMCoderMan */ = {
+			isa = PBXGroup;
+			children = (
+				63CFDFCDAFA7AA1336B4E78FE443DDE9 /* Info.plist */,
+				58B363569FF455DC1D6DCE6FB3F2C10E /* Pods-FMCoderMan.modulemap */,
+				B65634A3712EEAE4F3BFA3A0EBBA2AED /* Pods-FMCoderMan-acknowledgements.markdown */,
+				0D8496A79777D5B0C6BD52EB90F79F21 /* Pods-FMCoderMan-acknowledgements.plist */,
+				9B46FA811A9168D04DC484F66024380D /* Pods-FMCoderMan-dummy.m */,
+				ACBDEE8D4311A832DB61CFC75D6D0ACA /* Pods-FMCoderMan-frameworks.sh */,
+				0A4DB81C3C906E8E6A5CE874F036B940 /* Pods-FMCoderMan-resources.sh */,
+				A6F6007CD64B036C0804F7BB17CD025F /* Pods-FMCoderMan-umbrella.h */,
+				649566D23BA1995A8C95024F1F083E24 /* Pods-FMCoderMan.debug.xcconfig */,
+				EDD20ECC654A8B2331129BD1BDD3CAE7 /* Pods-FMCoderMan.release.xcconfig */,
+			);
+			name = "Pods-FMCoderMan";
+			path = "Target Support Files/Pods-FMCoderMan";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A724B2FB6641D7B260902530FC1C6DF2 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				28DF4F9EED2796503A8E452B16223AF6 /* Products */,
+				2A85AFAD73E04E91FB79B708A5ED9AC5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A4BE5EC5BADC28D1166271D89D5097E4 /* Pods-FMCoderManUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3F2A33B292733FA621CFA3FE4BBED6D /* Info.plist */,
+				BF3B926EB708110853C35F7D21ED5958 /* Pods-FMCoderManUITests.modulemap */,
+				6C34F8E4555369CBF6A69BF493381ACE /* Pods-FMCoderManUITests-acknowledgements.markdown */,
+				38B38FDFAD060FDEE06388EF4DF3EA4C /* Pods-FMCoderManUITests-acknowledgements.plist */,
+				AEF8314F9A9230219BABCF055A25ABC4 /* Pods-FMCoderManUITests-dummy.m */,
+				02F9706BF56831C522D3B77A04E8C59D /* Pods-FMCoderManUITests-frameworks.sh */,
+				95D1F81B6269A2112A26EC9515FC21A8 /* Pods-FMCoderManUITests-resources.sh */,
+				B8EAE38678DC748FE1A2CFEE74322CC8 /* Pods-FMCoderManUITests-umbrella.h */,
+				1166EFF4321389BB37366C5FBD9854C8 /* Pods-FMCoderManUITests.debug.xcconfig */,
+				62D6F60974435E6B4E5582F777EA9BFD /* Pods-FMCoderManUITests.release.xcconfig */,
+			);
+			name = "Pods-FMCoderManUITests";
+			path = "Target Support Files/Pods-FMCoderManUITests";
+			sourceTree = "<group>";
+		};
+		A724B2FB6641D7B260902530FC1C6DF2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8F1B0F0A547EFD55A353F3CA8D005FD /* XMGFMBase */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B8F1B0F0A547EFD55A353F3CA8D005FD /* XMGFMBase */ = {
+			isa = PBXGroup;
+			children = (
+				38FA6738104BF84B301FEF4A0DA12F2E /* Classes */,
+				2DFEFD1954AA119864FD28282B69DF84 /* Support Files */,
+			);
+			name = XMGFMBase;
+			path = ../../../FMForCoderManLocalLib/XMGFMBase;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB0772BE52B9C6DFCED189C90E2FB4ED /* Pods-FMCoderManTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FEC5428FFFAEF855A5591E317BB26D3 /* Info.plist */,
+				9D19AE673C6D6E01700B6A6CA4175825 /* Pods-FMCoderManTests.modulemap */,
+				160760294643423F6E86A07E0044A75A /* Pods-FMCoderManTests-acknowledgements.markdown */,
+				7743C0053E30E23ED8B4D3B367B3F510 /* Pods-FMCoderManTests-acknowledgements.plist */,
+				A699167AA432B9CEF144BA7A5604672D /* Pods-FMCoderManTests-dummy.m */,
+				4AE20A51F04EF2B74E81497C79EC18D7 /* Pods-FMCoderManTests-frameworks.sh */,
+				4F3DF7EEFCE4FAE4C01202188AD7F76A /* Pods-FMCoderManTests-resources.sh */,
+				2978B5E25CBDE75D083518E09C910CDB /* Pods-FMCoderManTests-umbrella.h */,
+				C73A5F0EB544A155611C18009711FD17 /* Pods-FMCoderManTests.debug.xcconfig */,
+				21C65626027FB2A0844BF4B1D3805F0A /* Pods-FMCoderManTests.release.xcconfig */,
+			);
+			name = "Pods-FMCoderManTests";
+			path = "Target Support Files/Pods-FMCoderManTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		40C31E3F5EAFB82CC79D94C716BE4D62 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C39CDFB5E50CABCD0D958F5E7AC6180 /* Pods-FMCoderManUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D49087083A602962112854D4D2240E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99661E28CEC1CA073C68F8ABBA633BFB /* Pods-FMCoderMan-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2717ADC108950C884314BAB0E919391 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21CA17A364D070D4A6E8AFCDE61880F2 /* CALayer+PauseAimate.h in Headers */,
+				69371575212A90A0468E885C8A92A8E7 /* UIImage+XMGImage.h in Headers */,
+				D055156CC8DE4EBC8D496F99AD320C11 /* UIView+XMGLayout.h in Headers */,
+				435755804711D11F3A65BDE6F0308030 /* XMGFMBase-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D42EB8257A1592CC048209D891B2C243 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0D6551A31BD8F41900F83AEFAAE052A /* Pods-FMCoderManTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		50E0B2810F76C1CA73CB9269A2805EF6 /* XMGFMBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 539C1939DFE5D99767848AEFEC919741 /* Build configuration list for PBXNativeTarget "XMGFMBase" */;
+			buildPhases = (
+				6773CB16831E84531F59CEEC2997D1B6 /* Sources */,
+				DC9B41D52A058C7CF083D164A08C1DCE /* Frameworks */,
+				B2717ADC108950C884314BAB0E919391 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMGFMBase;
+			productName = XMGFMBase;
+			productReference = F843A1A953B5A61434A56E4CDC78C0AC /* XMGFMBase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6CAE4D4300636C5942EA8D31A5F7F405 /* Pods-FMCoderManUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3028432F0A3B9C70764832274EF75484 /* Build configuration list for PBXNativeTarget "Pods-FMCoderManUITests" */;
+			buildPhases = (
+				E1FE64A86A8CD2CC2C591B480615512A /* Sources */,
+				E2952997C372B293D979EAC5E69773FD /* Frameworks */,
+				40C31E3F5EAFB82CC79D94C716BE4D62 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FMCoderManUITests";
+			productName = "Pods-FMCoderManUITests";
+			productReference = 19BADDDDD23FEDD10C764DDA26A16838 /* Pods_FMCoderManUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B56B6212EF5F1F153AD77F3D30F18F10 /* Pods-FMCoderManTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49B9210891AA2796D535365A27C5755 /* Build configuration list for PBXNativeTarget "Pods-FMCoderManTests" */;
+			buildPhases = (
+				18B7189290E05D04CCF83FEEF59398B2 /* Sources */,
+				5D3DCE4E375ECEAF221943B8C0BDCFDD /* Frameworks */,
+				D42EB8257A1592CC048209D891B2C243 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FMCoderManTests";
+			productName = "Pods-FMCoderManTests";
+			productReference = 39065233ABAD05765D066009B191F9A2 /* Pods_FMCoderManTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DED0B7B387FE38420C7BBAF49A199559 /* Pods-FMCoderMan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F15820F02FCE748B99660E0339FAD8 /* Build configuration list for PBXNativeTarget "Pods-FMCoderMan" */;
+			buildPhases = (
+				EBE7122601774B0C6D8A4451A15B687E /* Sources */,
+				24FA5E9BE0A7FED00DE4BE03A966A4F8 /* Frameworks */,
+				4D49087083A602962112854D4D2240E8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6955571D201A50FAE36BC56E983B054 /* PBXTargetDependency */,
+			);
+			name = "Pods-FMCoderMan";
+			productName = "Pods-FMCoderMan";
+			productReference = D480E5BF01197224B9A1538880729B55 /* Pods_FMCoderMan.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 28DF4F9EED2796503A8E452B16223AF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DED0B7B387FE38420C7BBAF49A199559 /* Pods-FMCoderMan */,
+				B56B6212EF5F1F153AD77F3D30F18F10 /* Pods-FMCoderManTests */,
+				6CAE4D4300636C5942EA8D31A5F7F405 /* Pods-FMCoderManUITests */,
+				50E0B2810F76C1CA73CB9269A2805EF6 /* XMGFMBase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B7189290E05D04CCF83FEEF59398B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A59458839CE0A41909CE83231BB8B5B /* Pods-FMCoderManTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6773CB16831E84531F59CEEC2997D1B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8017DF6723ECCBE4279B5C53D64DC21 /* CALayer+PauseAimate.m in Sources */,
+				60C3164EB894915E32DE069002BFD7A0 /* UIImage+XMGImage.m in Sources */,
+				AC0E010187CAEE25A7C654FC0F2896F0 /* UIView+XMGLayout.m in Sources */,
+				A7F96158B790478E1ADD009ECF451D88 /* XMGFMBase-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FE64A86A8CD2CC2C591B480615512A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB10B5AC829284B43458805B39D7EAC7 /* Pods-FMCoderManUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE7122601774B0C6D8A4451A15B687E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12EA59EFAAE8FFD68408DCB7839B984 /* Pods-FMCoderMan-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6955571D201A50FAE36BC56E983B054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMGFMBase;
+			target = 50E0B2810F76C1CA73CB9269A2805EF6 /* XMGFMBase */;
+			targetProxy = C16188449C905921C11329010E95DB49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		258640AA0EEC07A1565951722AD5EBEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1166EFF4321389BB37366C5FBD9854C8 /* Pods-FMCoderManUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FMCoderManUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FMCoderManUITests/Pods-FMCoderManUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FMCoderManUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		28145F1355BF43FC3EDE0B0E34C95637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 990DF726B57094ACD40416EF3BBAF590 /* XMGFMBase.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XMGFMBase/XMGFMBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMGFMBase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XMGFMBase/XMGFMBase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = XMGFMBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		29E345CD84265F5ADF874D873F987BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C65626027FB2A0844BF4B1D3805F0A /* Pods-FMCoderManTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FMCoderManTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FMCoderManTests/Pods-FMCoderManTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FMCoderManTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7B218F5E9F9B3F6485BBE61B1DAB551D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 649566D23BA1995A8C95024F1F083E24 /* Pods-FMCoderMan.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FMCoderMan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FMCoderMan/Pods-FMCoderMan.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FMCoderMan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84AB39BB9B611186EE0233E1C719C531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62D6F60974435E6B4E5582F777EA9BFD /* Pods-FMCoderManUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FMCoderManUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FMCoderManUITests/Pods-FMCoderManUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FMCoderManUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC7E3DA0C551DC44239CB4C70C66F30C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 990DF726B57094ACD40416EF3BBAF590 /* XMGFMBase.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XMGFMBase/XMGFMBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMGFMBase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XMGFMBase/XMGFMBase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = XMGFMBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E32D0E89217112D1F0C6C7DADE97A0A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C73A5F0EB544A155611C18009711FD17 /* Pods-FMCoderManTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FMCoderManTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FMCoderManTests/Pods-FMCoderManTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FMCoderManTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E49A8A00DF449592590A7EE72B6A0FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDD20ECC654A8B2331129BD1BDD3CAE7 /* Pods-FMCoderMan.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FMCoderMan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FMCoderMan/Pods-FMCoderMan.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FMCoderMan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3028432F0A3B9C70764832274EF75484 /* Build configuration list for PBXNativeTarget "Pods-FMCoderManUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				258640AA0EEC07A1565951722AD5EBEA /* Debug */,
+				84AB39BB9B611186EE0233E1C719C531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		539C1939DFE5D99767848AEFEC919741 /* Build configuration list for PBXNativeTarget "XMGFMBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7E3DA0C551DC44239CB4C70C66F30C /* Debug */,
+				28145F1355BF43FC3EDE0B0E34C95637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F15820F02FCE748B99660E0339FAD8 /* Build configuration list for PBXNativeTarget "Pods-FMCoderMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B218F5E9F9B3F6485BBE61B1DAB551D /* Debug */,
+				E49A8A00DF449592590A7EE72B6A0FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D49B9210891AA2796D535365A27C5755 /* Build configuration list for PBXNativeTarget "Pods-FMCoderManTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E32D0E89217112D1F0C6C7DADE97A0A4 /* Debug */,
+				29E345CD84265F5ADF874D873F987BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
